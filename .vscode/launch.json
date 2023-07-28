@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Class2Application",
+            "request": "launch",
+            "mainClass": "com.learnSpringBoot.Class2Application",
+            "projectName": "class1"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Class1Application<class1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.learnSpringBoot.class1.Class1Application",
+            "projectName": "class1",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
